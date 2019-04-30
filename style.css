@@ -1,0 +1,59 @@
+/*Default CSS*/
+body {
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px;
+	font-family: Arial, Calibri;
+}
+
+nav {
+	background-color: #636363;
+	color: white;
+
+}
+
+nav #nav-list {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li {
+	padding: 16px;
+	text-align: center;
+	border: 1px solid black;
+	transition: background-color 1s ease;
+}
+
+nav ul li:hover {
+  background-color: black;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 700px){
+	nav ul{
+		text-align: right;
+	}
+	nav ul li{
+		padding: none ;
+		display: inline-block;
+		border: none;
+		text-align: left;
+	
+	}
+}
